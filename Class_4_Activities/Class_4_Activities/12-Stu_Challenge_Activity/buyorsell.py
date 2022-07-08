@@ -1,3 +1,4 @@
+# Class 4 Activity - Conditionally Yours Part 2
 # calculate the percent increase or decrease in x stock price  
 # identify a viable percent increase/decrease that will indicate buy or sell action 
 # (use conditional logic -- 20% increase or decrease in stock price should warrant a buy or sell) 
