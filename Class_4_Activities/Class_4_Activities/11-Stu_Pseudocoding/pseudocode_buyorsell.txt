@@ -1,10 +1,10 @@
 Calculate percent decrease in stock price: 
 
     --- Increase = Current Price - Original Price 
-    --- Percent Increase = Increase / Original * 100 
+    --- Percent Increase = Increase / Original Price * 100 
 
     Variables: 
-        --- increase 
+        --- increase_in_price 
         --- original_price
         --- current_price
         --- percent_increase

@@ -3,17 +3,17 @@
 # identify a viable percent increase/decrease that will indicate buy or sell action 
 # (use conditional logic -- 20% increase or decrease in stock price should warrant a buy or sell) 
 
-# Increase = Current Price - Original Price 
+# Price Increase = Current Price - Original Price 
 # Percent Increase = Increase / Original * 100
 
 # variables 
 original_price = 0 
 current_price = 0 
-increase = 0 
-threshold_to_buy = 20
-threshold_to_sell = 20 
+increase_in_price = 0 
 percent_increase = 0 
 port_balance = 0
+threshold_to_buy = 20
+threshold_to_sell = 20 
 
 # get stock prices from user
 original_price = float(input("Enter the original/purchase price of x stock: "))
@@ -23,10 +23,10 @@ current_price = float(input("Enter the current price of x stock: "))
 port_balance = float(input("Enter the cash balance (available buying power) of your portfloio: "))
 
 # calculate increase 
-increase = current_price - original_price
+increase_in_price = current_price - original_price
 
 # calculate percent increase 
-percent_increase = (increase / original_price) * 100
+percent_increase = (increase_in_price / original_price) * 100
 
 # buy or sell 
 if (port_balance == (current_price * 5.1)): 
