@@ -30,7 +30,7 @@ percent_increase = (increase_in_price / original_price) * 100
 
 # buy or sell 
 if (port_balance == (current_price * 5.1)): 
-        recommendation = ("Recommendation: Your portfloio balance is more than 5x the current stock price! Buy x shares of x stock")
+    recommendation = ("Recommendation: Your portfloio balance is more than 5x the current stock price! Buy x shares of x stock")
 elif percent_increase < threshold_to_buy:                             # buy stock if the percent_increase is less than 20% 
     recommendation = ("Recommendation: Buy x shares of x stock")
 elif percent_increase > threshold_to_sell:                            # sell stock if the percent_increase is greater than 20% 
