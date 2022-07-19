@@ -6,7 +6,7 @@
 
 # ***What are your career goals?***
 
---- I'm not exactly sure what I want as a career for now, however I have been extremely interested in crypto-currencies and AI technology. One day, I will create my own FinTech product that could help people with their finances. 
+--- I'm not exactly sure what I want as a career for now, however I have been extremely interested in crypto-currencies and AI technology. 
 
 # ***Why did you choose FinTech as a career path?***
 
