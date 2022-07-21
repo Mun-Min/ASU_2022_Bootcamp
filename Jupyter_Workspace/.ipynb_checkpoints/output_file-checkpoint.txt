@@ -1,0 +1,1 @@
+The total and count of the numbers in the text file are 4945 and 100, respectively. The daily average is 49.45
