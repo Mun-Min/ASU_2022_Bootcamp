@@ -14,6 +14,8 @@
 
 #### --> [Sorting Pandas DataFrames](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/04-Pandas/2/Activities/05-sorting-01/Unsolved/sorting-01_my_attempt.ipynb)
 
+#### --> [Grouping Data in Pandas DataFrames](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/04-Pandas/2/Activities/06-groupby-01/Unsolved/groupby-01.ipynb)
+
 
 <br>
 <br>
