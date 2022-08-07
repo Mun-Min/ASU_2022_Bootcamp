@@ -6,6 +6,8 @@
 
 #### --> [Pandas Portfolio Analysis](https://github.com/Mun-Min/Pandas_Portfolio_Analysis)
 
+#### --> [Pandas Banking Script](https://github.com/Mun-Min/Python_Banking_Script)
+
 #### --> [Reading a CSV file as a Pandas DataFrame](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/04-Pandas/2/Activities/01-csv-01/Unsolved/csv-01_my_attempt.ipynb)
 
 #### --> [Column Manipulation of Pandas DataFrames](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/04-Pandas/2/Activities/02-columns-01/Unsolved/column_manipulation_my_attempt.ipynb)
