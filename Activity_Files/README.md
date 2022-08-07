@@ -18,7 +18,7 @@
 
 #### --> [Binning Data in Pandas DataFrames](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/04-Pandas/2/Activities/07-binning-01/Unsolved/binning-01_my_attempt.ipynb)
 
-#### --> [Calculating Stock Returns via Pandas DataFrame](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/04-Pandas/2/Activities/07-binning-01/Unsolved/binning-01_my_attempt.ipynb)
+#### --> [Calculating Stock Returns via Pandas DataFrame](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/04-Pandas/2/Activities/08-returns-01/Unsolved/returns-01_my_attempt.ipynb)
 <br>
 <br>
 <br>
