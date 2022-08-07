@@ -1,5 +1,9 @@
 ## Python/Pandas Activity Review Files 
 
+#### --> [Python Basics Cheat Sheet](https://www.pythoncheatsheet.org/)
+
+#### --> [Pandas Documentation](https://pandas.pydata.org/docs/user_guide/10min.html)
+
 #### --> [Reading a CSV file as a Pandas DataFrame](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/04-Pandas/2/Activities/01-csv-01/Unsolved/csv-01.ipynb)
 
 #### --> [Column Manipulation of Pandas DataFrames](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/04-Pandas/2/Activities/02-columns-01/Solved/columns-01.ipynb)
