@@ -35,6 +35,8 @@
 #### --> [Calculating Portfolio Returns with Pandas DataFrames](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/04-Pandas/2/Activities/13-portfolio-returns-01/Unsolved/portfolio_returns_my_attempt.ipynb)
 
 #### --> [Bank of America Stock Data](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/04-Pandas/2/Activities/14-culmination-01/Unsolved/culmination-01_my_attempt.ipynb)
+
+#### --> [Game of Thrones: Pandas Are Coming](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/04-Pandas/2/Activities/15-culmination-02/Unsolved/culimination-02_my_attempt.ipynb)
 <br>
 <br>
 <br>
