@@ -31,6 +31,8 @@
 #### --> [Calculating Correlation Using Pandas DataFrames](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/04-Pandas/2/Activities/11-correlation-01/Unsolved/correlation-01_my_attempt.ipynb) 
 
 #### --> [Calculating Beta with Pandas DataFrames](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/04-Pandas/2/Activities/12-beta-01/Unsolved/beta_my_attempt.ipynb)
+
+#### --> [Calculating Portfolio Returns with Pandas DataFrames](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/04-Pandas/2/Activities/13-portfolio-returns-01/Unsolved/portfolio_returns_my_attempt.ipynb)
 <br>
 <br>
 <br>
