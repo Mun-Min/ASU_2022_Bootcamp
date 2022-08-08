@@ -39,6 +39,8 @@
 #### --> [Game of Thrones: Pandas Are Coming](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/04-Pandas/2/Activities/15-culmination-02/Unsolved/culimination-02_my_attempt.ipynb)
 
 #### --> [World Happiness: More Pandas](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/04-Pandas/2/Activities/16-culmination-03/Unsolved/culmination-03_my_attempt.ipynb)
+
+#### --> [Gotta Catch em All: Listing the Strongest Pokemon](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/04-Pandas/2/Activities/17-culmination-04/Unsolved/culmination-04_my_attempt.ipynb)
 <br>
 <br>
 <br>
