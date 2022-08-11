@@ -1,25 +1,4 @@
-## Unit 4 - Pandas
+## Interview Practice Problems + Solutions
 
-### Overview
-
-This week we will cover...
-
-### Lesson Plans
-
-* [4.1 Lesson Plan](1/LessonPlan.md)
-
-* [4.2 Lesson Plan](2/LessonPlan.md)
-
-* [4.3 Lesson Plan](3/LessonPlan.md)
-
-
-### Supplemental Resources
-
-* [Student Guide](Supplemental/StudentGuide.md)
-
-
-
-------
-
-© 2022 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+#### --> [Interview Problems](https://github.com/Mun-Min/ASU_2022_Bootcamp/tree/master/Activity_Files/04-Pandas/3/Activities/04-Stu_Partner_Interviews/Solved)
 
