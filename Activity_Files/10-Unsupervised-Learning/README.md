@@ -7,3 +7,5 @@
 #### --> [Elbow Method](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/10-Unsupervised-Learning/1/Activities/04-Evr_Elbow_Method/Solved/elbow_curve.ipynb)
 
 #### --> [Finding K using the Elbow Method](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/10-Unsupervised-Learning/1/Activities/05-Stu_Finding_k/Unsolved/finding_k.ipynb)
+
+
