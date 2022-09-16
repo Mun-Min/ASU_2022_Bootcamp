@@ -9,3 +9,12 @@
 #### --> [Finding K using the Elbow Method](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/10-Unsupervised-Learning/1/Activities/05-Stu_Finding_k/Unsolved/finding_k.ipynb)
 
 
+#### --> [Preparing Data by Normalization](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/10-Unsupervised-Learning/2/Activities/02-Preparing_Data_by_Normalizing/Solved/Preparing_Data_by_Normalizing.ipynb)
+
+#### --> [Pre-processing](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/10-Unsupervised-Learning/2/Activities/03-Evr_Preprocessing/Solved/cc_preprocessing.ipynb)
+
+#### --> [Standardizing Stock Data](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/10-Unsupervised-Learning/2/Activities/04-Stu-Standardizing_Stock_Data/Solved/standardizing_stock_data.ipynb)
+
+#### --> [Complex Data (Birch Algo, Agglomerative Clustering)](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/10-Unsupervised-Learning/2/Activities/05-Ins-Complex-Data/Solved/ins-complex-data.ipynb)
+
+#### --> [Segmenting Customer Data](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/10-Unsupervised-Learning/2/Activities/06-Stu_Segmenting_Customers/Solved/segmenting_customer_data.ipynb)
