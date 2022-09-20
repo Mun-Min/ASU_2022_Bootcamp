@@ -18,3 +18,5 @@
 #### --> [Complex Data (Birch Algo, Agglomerative Clustering)](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/10-Unsupervised-Learning/2/Activities/05-Ins-Complex-Data/Solved/ins-complex-data.ipynb)
 
 #### --> [Segmenting Customer Data](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/10-Unsupervised-Learning/2/Activities/06-Stu_Segmenting_Customers/Solved/segmenting_customer_data.ipynb)
+
+#### --> [Standardizing & Clustering Currency Data](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/10-Unsupervised-Learning/3/Activities/01-Warm_Up/Unsolved/global_carry_trades.ipynb)
