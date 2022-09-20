@@ -9,7 +9,7 @@
 #### --> [Finding K using the Elbow Method](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/10-Unsupervised-Learning/1/Activities/05-Stu_Finding_k/Unsolved/finding_k.ipynb)
 
 
-#### --> [Preparing Data by Normalization](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/10-Unsupervised-Learning/2/Activities/02-Preparing_Data_by_Normalizing/Solved/Preparing_Data_by_Normalizing.ipynb)
+#### --> [Preparing Data by Normalization [fit_transform()]](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/10-Unsupervised-Learning/2/Activities/02-Preparing_Data_by_Normalizing/Solved/Preparing_Data_by_Normalizing.ipynb)
 
 #### --> [Pre-processing](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/10-Unsupervised-Learning/2/Activities/03-Evr_Preprocessing/Solved/cc_preprocessing.ipynb)
 
