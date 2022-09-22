@@ -10,4 +10,4 @@
 
 #### --> [Exploring Time Series Data](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/11-Time-Series/1/Activities/05-Ins_Exploring_Time_Series_Data/Solved/exploring-time-series-data.ipynb)
 
-#### --> [Analyzing Time Series Patters in the S&P 500 Index](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/11-Time-Series/1/Activities/06-Stu_Visualizing_Time_Patterns/Solved/visualizing_time_patterns.ipynb)
+#### --> [Analyzing Time Series Patterns in the S&P 500 Index](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/11-Time-Series/1/Activities/06-Stu_Visualizing_Time_Patterns/Solved/visualizing_time_patterns.ipynb)
