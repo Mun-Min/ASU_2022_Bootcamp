@@ -19,3 +19,9 @@
 #### --> [Setting up Google Collab to work with Facebook Prophet Package](https://github.com/Mun-Min/ASU_2022_Bootcamp/tree/master/Activity_Files/11-Time-Series/2/Activities/05-Stu_Setting_Up_Google_Colab)
 
 #### --> [Data Prep to run Prophet Model](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/11-Time-Series/2/Activities/07-Stu_Data_Prep/Solved/data-prep.ipynb)
+
+#### --> [Acessing Market Opportunities for Alpaca Wool Scarves - Time Series Forecasting](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/11-Time-Series/3/Activities/02-Stu_Forecasting_Market_Opportunities/Solved/forecasting-market-opportunities.ipynb)
+
+#### --> [Interpreting the Forecasting Results](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/11-Time-Series/3/Activities/04-Stu_Interpreting_Forecasting_Results/Solved/interpreting_forecasting_results.ipynb)
+
+#### --> [Forecasting Bitcoin Prices by Using Prophet](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/11-Time-Series/3/Activities/05-Stu_Forecasting_Bitcoin_Prices/Solved/forecasting-bitcoin-prices.ipynb)
