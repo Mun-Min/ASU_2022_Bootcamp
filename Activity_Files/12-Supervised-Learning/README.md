@@ -1,4 +1,4 @@
-## Unsupervised Learning Activity Review Files 
+## Maching Learning (Supervised) Activity Review Files 
 
 #### --> [Linear Regression](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/12-Supervised-Learning/1/Activities/01-Ins_Linear_Regression/Solved/linear_regression.ipynb)
 

@@ -1,4 +1,4 @@
-## Machine Learning Activity Review Files 
+## Machine Learning (Unsupervised) Activity Review Files 
 
 #### --> [Clustering & KMeans](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/10-Unsupervised-Learning/1/Activities/02-Ins_Kmeans/Solved/services_clustering.ipynb)
 
