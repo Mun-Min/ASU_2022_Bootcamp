@@ -1,0 +1,20 @@
+1. A company wants to block phishing messages—predict whether an email is spam or not spam.
+    
+    - The model I would use is the logistic regression model because it estimates the probability 
+      of an event occuring based on a given dataset of independent variables. 
+
+2. Doctors want an objective second opinion on imaging results—predict whether an MRI shows cancerous growth.
+
+    - The model I would use would fall in the classification category and would use either Support Vector
+      Machines (finds a hyper-plane that creates a boundary between types of data) or the KNeighbors Classifier 
+      (makes classifications or predictions about the grouping of an individual data point). 
+
+3. Farmers want improved weather forecasts—predict whether it will rain the next day.
+
+    - The model I would most likely use is the linear regression model since it can model relationships between 
+      a dependant variable with a given set of independent variables
+
+4. A venture capital firm wants to optimize its investments—predict whether a company will undertake an IPO in the next 12 months.
+
+    - The model I would use is the logistic regression model because it estimates the probability 
+      of an event occuring based on a given dataset of independent variables. 
