@@ -18,5 +18,6 @@
 
 #### --> [Random Forests Algorithm](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/12-Supervised-Learning/2/Activities/06-Stu_Random_Forests/Solved/fraud-random-forest.ipynb)
 
-#### --> [K-Nearest Neighbor Algorithm](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/12-Supervised-Learning/2/Activities/07-Ins_KNN/Solved/knn.ipynb)
+#### --> [K-Nearest Neighbor Algorithm](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/12-Supervised-Learning/2/Activities/08-Stu_KNN/Solved/knn.ipynb)
 
+#### --> [Random Resampling](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/12-Supervised-Learning/3/Activities/04-Stu_Random_Resampling/Solved/random_resampling.ipynb)
