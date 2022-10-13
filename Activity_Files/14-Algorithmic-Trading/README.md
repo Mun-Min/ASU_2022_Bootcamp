@@ -1,8 +1,9 @@
-## Algo Trading -- Activity Review Files 
+## Algorithmic Trading -- Activity Review Files 
 
-#### --> [Model, Fit, Predict w/ Neural Networks](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/13-Neural-Networks/1/Activities/03-Ins_Fit_Predict/Solved/Fit_Predict_Network.ipynb)
+#### --> [Getting Started with Algo Trading](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/14-Algorithmic-Trading/1/Activities/03-Stu_Algo_Trading/Unsolved/algo_trading.ipynb)
 
-#### --> [Preventing Credit Card Defaults](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/13-Neural-Networks/1/Activities/03-Ins_Fit_Predict/Solved/Fit_Predict_Network.ipynb)
+#### --> [Profitable Algorithmic Trading](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/14-Algorithmic-Trading/1/Activities/05-Stu_Profitable_Algo_Trading/Unsolved/profitable_algo_trading.ipynb)
 
-#### --> [Predicting Fraudulent Transactions Using Neural Networks](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/13-Neural-Networks/2/Activities/02-Stu_Fraudulent_Transactions/Solved/fraudulent_transactions.ipynb)
+#### --> [Create Short/Long Position Algo](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/14-Algorithmic-Trading/1/Activities/07-Stu_Short_Position_Algorithm/Unsolved/create_a_short_position_algorithm.ipynb)
 
+#### --> [Practicing Trading Signals with SPY (S&P 500 ETF)](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/14-Algorithmic-Trading/1/Activities/07-Stu_Short_Position_Algorithm/Unsolved/short_long_SPY.ipynb)
