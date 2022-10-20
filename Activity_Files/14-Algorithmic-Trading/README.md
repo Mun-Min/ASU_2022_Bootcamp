@@ -14,10 +14,10 @@
 
 #### --> [Using Finta for Trading Signals](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/14-Algorithmic-Trading/2/Activities/06-Stu_Using_Finta_for_Trading_Signals/Solved/using_finta_for_trading_signals.ipynb)
 
-#### --> [Evaluating Algorithmic Strategy Performance](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/14-Algorithmic-Trading/3/Activities/03-Stu_Perf_Metrics/Unsolved/algo_trading_performance.ipynb)
+#### --> [Evaluating Algorithmic Strategy Performance](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/14-Algorithmic-Trading/3/Activities/03-Stu_Perf_Metrics/Solved/algo_trading_performance.ipynb)
 
-#### --> [Preparing Data for a Machine Learning Trading Strategy](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/14-Algorithmic-Trading/3/Activities/05-Stu_Preparing_Data/Unsolved/preparing_data.ipynb)
+#### --> [Preparing Data for a Machine Learning Trading Strategy](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/14-Algorithmic-Trading/3/Activities/05-Stu_Preparing_Data/Solved/preparing_data.ipynb)
 
-#### --> [Using a New Machine Learning Classifier for Algorithmic Trading](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/14-Algorithmic-Trading/3/Activities/07-Stu_New_ML_Classifier/Unsolved/new_ml_classifier.ipynb)
+#### --> [Using a New Machine Learning Classifier for Algorithmic Trading](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/14-Algorithmic-Trading/3/Activities/07-Stu_New_ML_Classifier/Solved/new_ml_classifier.ipynb)
 
 #### --> [Going Live with Algo Trading using Alpaca API](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/14-Algorithmic-Trading/3/Activities/08-Ins_Live_Trade_Demo/Solved/live_trade_demo.ipynb)
