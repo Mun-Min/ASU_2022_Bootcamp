@@ -1,3 +1,5 @@
+# file path --> Activity_Files/18-Blockchain/2/Activities/06-Stu_Hashing_a_Block/Unsolved
+
 # Hashing a Block
 ################################################################################
 # In this activity, you’ll create a Streamlit application that can create a new
@@ -38,33 +40,34 @@ class Block:
 
     # @TODO:
     # Add a new function called `hash_block`
-    # YOUR CODE HERE!
+    def hash_block(self):
 
-    # @TODO:
-    # Add an instance of the `sha256` hashing function
-    # YOUR CODE HERE!
+        # @TODO:
+        # Add an instance of the `sha256` hashing function
+        sha = hashlib.sha256()
 
-    # @TODO:
-    # Encode the Block's data attribute
-    data =  # YOUR CODE HERE!
-    # Update the encoded data using the hashing function
-    # YOUR CODE HERE!
+        # @TODO:
+        # Encode the Block's data attribute
+        data = str(self.data).encode()
+     
+        # Update the encoded data using the hashing function
+        sha.update(data)
 
-    # @TODO:
-    # Encode the Blocks's creator_id attribute
-    creator_id =  # YOUR CODE HERE!
-    # Update the encoded creator_id using the hashing function
-    # YOUR CODE HERE!
+        # @TODO:
+        # Encode the Blocks's creator_id attribute
+        creator_id = str(self.creator_id).encode()
+        # Update the encoded creator_id using the hashing function
+        sha.update(creator_id)
 
-    # @TODO:
-    # Encode the Block's timestamp attribute
-    timestamp =  # YOUR CODE HERE!
-    # Update the encoded timestamp using the hashing function
-    # YOUR CODE HERE!
+        # @TODO:
+        # Encode the Block's timestamp attribute
+        timestamp = str(self.timestamp).encode()
+        # Update the encoded timestamp using the hashing function
+        sha.update(timestamp)
 
-    # @TODO:
-    # Return the hashes of all the Block class attributes
-    # YOUR CODE HERE!
+        # @TODO:
+        # Return the hashes of all the Block class attributes
+        return sha.hexdigest()
 
 
 ################################################################################
@@ -75,7 +78,7 @@ st.markdown("# PyBlock")
 st.markdown("## Store Data in a Block")
 
 # Access the user's input data
-input_data = st.text_input("Block Data")
+input_data = st.text_input("Block Data: ")
 
 
 ################################################################################
@@ -93,11 +96,11 @@ if st.button("Add Block"):
 
     # @TODO:
     # Call the `hash_block` function on the `new_block` to create a `block_hash`
-    block_hash =  # YOUR CODE HERE!
+    block_hash =  new_block.hash_block()
 
     # @TODO:
     # Use `st.write` to display the `block_hash` to the page.
-    # YOUR CODE HERE!
+    st.write("Hash Block: ", block_hash)
 
 
 ################################################################################

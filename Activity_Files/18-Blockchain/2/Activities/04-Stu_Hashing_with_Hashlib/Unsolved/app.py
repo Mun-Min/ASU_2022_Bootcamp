@@ -1,3 +1,5 @@
+# file path --> Activity_Files/18-Blockchain/2/Activities/04-Stu_Hashing_with_Hashlib/Unsolved
+
 # Hashing With Hashlib
 ################################################################################
 # In this activity, you’ll use the hashlib library and Streamlit to build an
@@ -28,25 +30,26 @@ import streamlit as st
 
 # @TODO:
 # Define a function called `hash_data` that takes in a parameter called `data`
-# YOUR CODE HERE!
+def hash_data(data): 
 
-# @TODO:
-# Instantiate an instance of hashlib's `sha256` function
-sha =  # YOUR CODE HERE!
 
-# @TODO:
-# Use the `encode` function to encode the string version of the data that
-# was passed in as a parameter to the function
-encoded_data =  # YOUR CODE HERE!
+    # @TODO:
+    # Instantiate an instance of hashlib's `sha256` function
+    sha =  hashlib.sha256()
 
-# @TODO:
-# Call the hashing instance and the `update` function. Pass it the encoded
-# data as a parameter
-# YOUR CODE HERE!
+    # @TODO:
+    # Use the `encode` function to encode the string version of the data that
+    # was passed in as a parameter to the function
+    encoded_data = data.encode()
 
-# @TODO:
-# Return the unique hash of the data using the `hexdigest` function
-# YOUR CODE HERE!
+    # @TODO:
+    # Call the hashing instance and the `update` function. Pass it the encoded
+    # data as a parameter
+    sha.update(encoded_data)
+
+    # @TODO:
+    # Return the unique hash of the data using the `hexdigest` function
+    return sha.hexdigest()
 
 ################################################################################
 # Streamlit Code
@@ -63,12 +66,12 @@ st.markdown("# Create a Unique Hash of Data")
 # Add a Streamlit `text_area` component to accept data from the user
 # Be sure to convert the input data to a string
 # Use the `encode` function to encode the input data
-input_data =  # YOUR CODE HERE!
+input_data =  st.text_area("Enter a phrase or statement to see the length of the input:")
 
 # @TODO:
 # Use the Streamlit `write` function to display the length (`len`) of the input
 # data back to the user
-# YOUR CODE HERE!
+st.write("Length of user input:", len(input_data))
 
 ################################################################################
 # Step 3:
@@ -78,19 +81,20 @@ input_data =  # YOUR CODE HERE!
 
 # @TODO:
 # Add a Streamlit `button` named “Hash Text”
-# YOUR CODE HERE!
+if st.button("Hash Text"):
 
-# @TODO:
-# Generate a hash of the user input using the `hash_data` function
-input_hash =  # YOUR CODE HERE!
+    # @TODO:
+    # Generate a hash of the user input using the `hash_data` function
+    input_hash = hash_data(input_data)
 
-# @TODO:
-# Use the Streamlit `write` function to display the unique hash of the data
-# YOUR CODE HERE!
+    # @TODO:
+    # Use the Streamlit `write` function to display the unique hash of the data
+    st.write(input_hash)
 
-# @TODO:
-# Use the Streamlit `write` function to display the length of the output hash.
-# YOUR CODE HERE!
+    # @TODO:
+    # Use the Streamlit `write` function to display the length of the output hash.
+    st.write("Length of output hash:", len(input_hash))
+
 ################################################################################
 # Step 4:
 # Test the application.
@@ -100,6 +104,12 @@ input_hash =  # YOUR CODE HERE!
 # 2. Be sure that your Conda development environment is active.
 # 3. Run the Streamlit app in the terminal by using `streamlit run app.py`.
 # 4. Navigate to [Lorem Ipsum](https://www.lipsum.com/), generate some lorem ipsum, and then paste the generated text.
+
+# Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a nisi et nunc sollicitudin laoreet in sed neque. 
+# Proin convallis varius odio, id euismod justo tristique at. Cras at ultricies nisi, sed vulputate ante. 
+# Praesent faucibus odio in tortor tincidunt tincidunt. Vivamus interdum, tortor ac semper laoreet, nisl nibh tincidunt ante, 
+# vitae iaculis arcu sapien quis turpis. Nunc in ullamcorper enim. Sed in est egestas, pulvinar orci in, laoreet nisl.
+
 # 5. Hash the encoded data by clicking the Hash Text button. Make a note of the unique fingerprint for the data.
 # 6. Change one word of the input text in the text box. Then hash the text again to find out how the hash changes as the input changes.
 
