@@ -3,6 +3,8 @@
 
 #### --> [Project 1: Impacts of the Pandemic on Phoenix, AZ Housing](https://github.com/Mun-Min/Project_One)
 
+#### --> [Project 2: Developing an Investment Portfolio Utilizing Machine Learning](https://github.com/Mun-Min/Project_Two)
+
 <br>
 <br>
 <br>
