@@ -1,3 +1,5 @@
+# file path --> Activity_Files/18-Blockchain/3/Activities/04-Stu_Dynamic_Difficulty/Unsolved
+
 # Dynamic Difficulty
 ################################################################################
 # In this activity, you’ll test the integration of the proof of work consensus 
@@ -37,7 +39,13 @@ class Block:
         timestamp = str(self.timestamp).encode()
         sha.update(timestamp)
 
-        nonce = str(self.nonce).encode()
+        nonce = str(self.nonce).encode() 
+        # The nonce is used to validate the information contained within a block.
+        # It is a random whole number, 
+        # which is a 32-bit (4 byte) field, 
+        # which is adjusted by the miners,
+        # so that it becomes a valid number to be used for hashing the value of block.
+
         sha.update(nonce)
 
         return sha.hexdigest()
@@ -55,7 +63,7 @@ class PyChain:
     # @TODO:
     # Add a `difficulty` data attribute with a data type of `int` and a default
     # value of 4.
-    # YOUR CODE HERE
+    difficulty: int = 4
 
 # Step 2:
 # Add a `num_of_zeros` data attribute that multiplies the string value ("0") by 
@@ -66,7 +74,7 @@ class PyChain:
         # @TODO:
         # Add a `num_of_zeros` variable that multiplies the string value ("0") 
         # by the `difficulty` value.
-        # YOUR CODE HERE
+        num_of_zeros = "0" * self.difficulty 
 
         while not calculated_hash.startswith(num_of_zeros):
             block.nonce += 1
@@ -110,13 +118,16 @@ input_data = st.text_input("Block Data")
 # @TODO:
 # Add a Streamlit slider named "Block Difficulty" that allows the user to update a 
 # difficulty value. Set this equal to the variable `difficulty`
-# YOUR CODE HERE
+difficulty = st.sidebar.select_slider(
+    "Block Difficulty", 
+    options = [1, 2, 3, 4, 5],
+    value = (4)
+)
 
 # @TODO
 # Update the `difficulty` data attribute of the `PyChain` data class (`pychain.difficulty`) 
 # with this new `difficulty` value
-# YOUR CODE HERE
-
+pychain.difficulty = difficulty
 
 if st.button("Add Block"):
     prev_block = pychain.chain[-1]

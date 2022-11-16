@@ -1,6 +1,5 @@
 ## Homework Github Links
 
-</br>
 
 ### Intro to Fintech:
 
