@@ -1,4 +1,4 @@
-## Blockchain -- Activity Review Files 
+## Blockchain -- Activity Review Files
 
 #### --> [Blockchain Terminology](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/18-Blockchain/Supplemental/Blockchain-Terminology-Guide.md)
 
@@ -13,3 +13,7 @@
 #### --> [Hashing a Block](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/18-Blockchain/2/Activities/06-Stu_Hashing_a_Block/Unsolved/app.py)
 
 #### --> [Streamlit Blockchain Application](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/18-Blockchain/2/Activities/08-Stu_Blockchain_Application/Unsolved/app.py)
+
+#### --> [Proof of Work](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/18-Blockchain/3/Activities/04-Stu_Dynamic_Difficulty/Solved/app.py)
+
+#### --> [Validating the Blockchain](https://github.com/Mun-Min/ASU_2022_Bootcamp/blob/master/Activity_Files/18-Blockchain/3/Activities/06-Stu_Validating_the_Blockchain/Solved/app.py)
