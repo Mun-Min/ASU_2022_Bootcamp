@@ -53,7 +53,7 @@ def send_transaction(account, receiver, ether):
     '''Function create a raw transaction, signs it, and sends it. 
        returns confirmation hash from transaction'''
 
-    gas = w3.eth.setGasPriceStrategy(medium_gas_price_strategy)
+    w3.eth.setGasPriceStrategy(medium_gas_price_strategy)
 
     wei_value = w3.toWei(ether, unit = 'ether')
 
