@@ -39,9 +39,29 @@ return the values of all the variables that you specified before, such as `owner
 pragma solidity ^0.5.0;
 
 contract CustomerAccount {
-    address owner = 0xc3879B456DAA348a16B6524CBC558d2CC984722c;
-    bool isNewAccount = true;
-    uint accountBalance = 10000;
-    string customerName = "Jordan";
-    string customerLastName = "Habib";
+    address owner;
+    bool isNewAccount;
+    uint accountBalance;
+    string customerName;
+    string customerLastName;
+
+
+    function getInfo() view public returns(address, bool, uint, string memory, string memory) { 
+
+        // return user data 
+        return (owner, isNewAccount, accountBalance, customerName, customerLastName);
+
+    }
+
+    function setInfo(address newOwner, bool newAccountStatus, uint newAccountBalance, string memory newCustomerName, string memory newCustomerLastName) public {
+        
+        // set user data 
+        owner = newOwner;
+        isNewAccount = newAccountStatus;
+        accountBalance = newAccountBalance; 
+        customerName = newCustomerName;
+        customerLastName = newCustomerLastName; 
+
+    }
+
 }
