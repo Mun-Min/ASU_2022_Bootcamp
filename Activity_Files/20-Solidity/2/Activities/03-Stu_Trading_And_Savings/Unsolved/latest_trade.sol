@@ -24,3 +24,25 @@
       contract.
 
 */
+
+pragma solidity ^0.5.0; 
+
+contract LatestTrade { 
+
+    // variable declaration 
+    string coin = "XRP"; 
+    uint price;  
+    bool is_buy_order; 
+
+    // updateTrade function that will update the contract variables 
+    function updateTrade(string memory new_coin, uint new_price, bool is_buy) public {
+        coin = new_coin; 
+        price = new_price; 
+        is_buy_order = is_buy; 
+    }
+
+    // getTrade function that will return the contract variables 
+    function getTrade() view public returns(string memory, uint, bool) {
+        return(coin, price, is_buy_order);
+    }
+}
