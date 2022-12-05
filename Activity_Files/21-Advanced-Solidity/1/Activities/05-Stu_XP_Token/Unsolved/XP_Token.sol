@@ -66,30 +66,41 @@ Complete the following steps:
 pragma solidity ^0.5.0;
 
 // @TODO: import the SafeMath library via Github URL
-// YOUR CODE HERE!
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/math/SafeMath.sol";
 
 contract XP_Token {
     // @TODO: add the "using SafeMath..." line here to link the library to all uint types
-    // YOUR CODE HERE!
+    using SafeMath for uint;
 
     // @TODO: add the three contract variables: owner, symbol, and exchange_rate
-    // YOUR CODE HERE!
-    // YOUR CODE HERE!
-    // YOUR CODE HERE!
+    address payable owner = msg.sender; 
+    string public symbol = "XPT"; 
+    uint public exchange_rate = 100; 
 
     // @TODO: add the data structure mapping for the user balances
-    // YOUR CODE HERE!
+    mapping(address => uint) balances; 
 
     // @TODO: Add a new function called `balance`
-    // YOUR CODE HERE!
+    function balance() public view returns(uint) {
+        return balances[msg.sender]; 
+    }
 
     // @TODO: Add a new function called `transfer`. Use the SafeMath library.
-    // YOUR CODE HERE!
+    function transfer(address recipient, uint value) public {
+        balances[msg.sender] = balances[msg.sender].sub(value);
+        balances[recipient] = balances[recipient].add(value);
+    }
 
     // @TODO: Add a new function called `purchase`. Use the SafeMath library.
-    // YOUR CODE HERE!
+    function purchase() public payable {
+        uint amount = msg.value.mul(exchange_rate);
+        balances[msg.sender] = balances[msg.sender].add(amount);
+        owner.transfer(msg.value);
+    }
 
     // @TODO: Add a new function called `mint`. Use the SafeMath library.
-    // YOUR CODE HERE!
+    function mint(address recipient, uint value) public {
+        require(msg.sender == owner, "You do not have permission to mint tokens!");
+        balances[recipient] = balances[recipient].add(value);
     }
 }
