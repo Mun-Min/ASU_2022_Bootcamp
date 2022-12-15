@@ -4,7 +4,6 @@ import requests
 from dotenv import load_dotenv
 load_dotenv()
 
-
 file_headers = {
     "pinata_api_key": os.getenv("PINATA_API_KEY"),
     "pinata_secret_api_key": os.getenv("PINATA_SECRET_API_KEY"),

@@ -203,56 +203,6 @@
 		"type": "function"
 	},
 	{
-		"constant": false,
-		"inputs": [
-			{
-				"name": "tokenId",
-				"type": "uint256"
-			},
-			{
-				"name": "newAppraisalValue",
-				"type": "uint256"
-			},
-			{
-				"name": "reportURI",
-				"type": "string"
-			},
-			{
-				"name": "tokenJSON",
-				"type": "string"
-			}
-		],
-		"name": "newAppraisal",
-		"outputs": [
-			{
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"payable": false,
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"constant": true,
-		"inputs": [
-			{
-				"name": "tokenId",
-				"type": "uint256"
-			}
-		],
-		"name": "imageUri",
-		"outputs": [
-			{
-				"name": "imageJson",
-				"type": "string"
-			}
-		],
-		"payable": false,
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
 		"constant": true,
 		"inputs": [
 			{
@@ -269,6 +219,33 @@
 		],
 		"payable": false,
 		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "tokenId",
+				"type": "uint256"
+			},
+			{
+				"name": "newAppraisalValue",
+				"type": "uint256"
+			},
+			{
+				"name": "reportURI",
+				"type": "string"
+			}
+		],
+		"name": "newAppraisal",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
 		"type": "function"
 	},
 	{
@@ -324,10 +301,6 @@
 			{
 				"name": "appraisalValue",
 				"type": "uint256"
-			},
-			{
-				"name": "artJson",
-				"type": "string"
 			}
 		],
 		"payable": false,
@@ -380,29 +353,6 @@
 		"type": "function"
 	},
 	{
-		"constant": true,
-		"inputs": [
-			{
-				"name": "owner",
-				"type": "address"
-			},
-			{
-				"name": "operator",
-				"type": "address"
-			}
-		],
-		"name": "isApprovedForAll",
-		"outputs": [
-			{
-				"name": "",
-				"type": "bool"
-			}
-		],
-		"payable": false,
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
 		"constant": false,
 		"inputs": [
 			{
@@ -424,10 +374,6 @@
 			{
 				"name": "tokenURI",
 				"type": "string"
-			},
-			{
-				"name": "tokenJSON",
-				"type": "string"
 			}
 		],
 		"name": "registerArtwork",
@@ -439,6 +385,29 @@
 		],
 		"payable": false,
 		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "owner",
+				"type": "address"
+			},
+			{
+				"name": "operator",
+				"type": "address"
+			}
+		],
+		"name": "isApprovedForAll",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
 		"type": "function"
 	},
 	{
@@ -463,11 +432,6 @@
 			{
 				"indexed": false,
 				"name": "reportURI",
-				"type": "string"
-			},
-			{
-				"indexed": false,
-				"name": "artJson",
 				"type": "string"
 			}
 		],
