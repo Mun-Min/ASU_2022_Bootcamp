@@ -5,6 +5,8 @@
 
 #### --> [Project 2: Developing an Investment Portfolio Utilizing Machine Learning](https://github.com/Mun-Min/Project_Two)
 
+#### --> [Project 3: Developing an Investment Portfolio via ChatBot](https://github.com/Mun-Min/Project_3)
+
 <br>
 <br>
 <br>
